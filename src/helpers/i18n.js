@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import translationAr from "../../public/locales/ar/ns1.json";
-import translationFr from "../../public/locales/fr/ns1.json";
+import translationAr from "../locales/ar/ns1.json";
+import translationFr from "../locales/fr/ns1.json";
 
 const env = process.env.NODE_ENV || "development";
 
