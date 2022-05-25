@@ -1,0 +1,33 @@
+.tableSetting {
+  margin-left: 472px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  width: 57% !important;
+}
+.dataStyle {
+  color: black !important;
+}
+.tableButom {
+  padding-bottom: 61px;
+}
+.profileImage {
+  border-radius: 100px;
+
+  border: 1px solid rgba(0, 0, 0, 0.418);
+  padding-left: 48px;
+  padding-bottom: 15px;
+  padding-top: 14px;
+}
+.tablePopUpData {
+  padding-left: 20px;
+}
+.paperIcon {
+  float: right;
+}
+.paperIconPic {
+  width: 100px;
+  margin-top: -16px;
+}
+.PopUptable {
+  width: 744px;
+  margin-left: 79px;
+}
