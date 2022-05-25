@@ -64,11 +64,11 @@ export default function useTableSearch() {
             .toLowerCase()
             .includes(value.toLowerCase())
         : "",
-    onFilterDropdownVisibleChange: (visible) => {
-      if (visible) {
-        setTimeout(() => searchInput.select(), 100);
-      }
-    },
+    // onFilterDropdownVisibleChange: (visible) => {
+    //   if (visible) {
+    //     setTimeout(() => searchInput.select(), 100);
+    //   }
+    // },
     render: (text) =>
       searchedColumn === dataIndex ? (
         <Highlighter

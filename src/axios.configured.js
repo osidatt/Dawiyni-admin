@@ -1,6 +1,6 @@
 import axios from "axios";
 const client = axios.create({
-  baseURL: "https://www.dawiyni.com/api",
+  baseURL: process.env.REACT_APP_API_BASE_URL,
 });
 console.log("env", process.env);
 export const setAuthHeader = (token) => {

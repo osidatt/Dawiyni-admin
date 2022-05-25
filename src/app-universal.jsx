@@ -1,5 +1,4 @@
 import React from "react";
-import config from "config";
 
 import {
   Route,
@@ -45,7 +44,7 @@ import WithdrawlRequests from "./components/withdrawalrequests";
 const AppUniversal = function (props) {
   const { userMetaData: user } = useUserContext();
   return (
-    <Router basename={`${config.publicPath}`}>
+    <Router>
       <Switch>
         <Route path="(/|/login)" exact component={Login} />
         <Route path="/404" exact component={Error} />
